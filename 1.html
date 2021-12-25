@@ -6,36 +6,40 @@
 <head>
   <title>WEB1 - HTML</title>
   <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <!-- body: 본문 -->
 
 <body>
   <h1><a href="index.html">WEB</a></h1>
   <!-- ol,ul,li 목차 -->
-  <ul>
-    <li><a href="1.html">HTML</a></li>
-    <li><a href="2.html">CSS</a></li>
-    <li><a href="3.html">JavaScript</a></li>
-  </ul>
-  <h2>HTML</h2>
-  <!-- p 단락 -->
-  <p>
-    <!-- iframe 동영상 삽입 -->
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/7T7r_oSp0SE" title="YouTube video player"
-      frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen></iframe>
-  </p>
-  <p>
-    <!-- a 링크 삽입 -->
-    <a href="https://www.w3.org/TR/2011/WD-html5-20110405/text-level-semantics.html#the-ruby-element" target="_blank"
-      title="html5 speicification">
-      Hypertext Markup Language (HTML)</a> is the standard Markup
-    language for <strong>creating <u>web</u> pages</strong> and web applications.
-  </p>
-  <!-- img 이미지 삽입 -->
-  <img src= "https://user-images.githubusercontent.com/82091824/147342131-de8b94d5-9bd0-4301-b956-78a9e72d99e2.jpg"
-  width="50%">
+  <div id="grid">
+    <ol>
+      <li><a href="1.html">HTML</a></li>
+      <li><a href="2.html">CSS</a></li>
+      <li><a href="3.html">JavaScript</a></li>
+    </ol>
+    <div id="article">
+      <h2>HTML</h2>
+      <!-- p 단락 -->
+      <p>
+        <!-- iframe 동영상 삽입 -->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/7T7r_oSp0SE" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <br>
+        <!-- a 링크 삽입 -->
+        <a href="https://www.w3.org/TR/2011/WD-html5-20110405/text-level-semantics.html#the-ruby-element"
+          target="_blank" title="html5 speicification">
+          Hypertext Markup Language (HTML)</a> is the standard Markup
+        language for <strong>creating <u>web</u> pages</strong> and web applications.
+      </p>
+      <!-- img 이미지 삽입 -->
+      <img src="https://user-images.githubusercontent.com/82091824/147342131-de8b94d5-9bd0-4301-b956-78a9e72d99e2.jpg"
+        width="50%">
+    </div>
+  </div>
   <p>
     <!-- comment api -->
   <div id="disqus_thread"></div>
